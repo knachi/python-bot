@@ -45,7 +45,7 @@ pairs = [
         ["Its alright", "Its OK, never mind", ]
     ],
     [
-        r"I am fine",
+        r"I am fine|I'm fine",
         ["Great to hear that, How can I help you?", ]
     ],
     [
@@ -110,7 +110,7 @@ pairs = [
 
 def chat():
     chat_instance = Chat(pairs, reflections)
-    response = chat_instance.respond('sorry ')
+    response = chat_instance.respond(input_text)
     print(response)
     text_to_speech(response)
 

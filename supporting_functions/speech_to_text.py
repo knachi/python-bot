@@ -18,7 +18,7 @@ def speech_to_text():
 
         current_time = now.strftime("%H:%M:%S")
         print("Current Time =", current_time)
-        audio_text = r.listen(source, phrase_time_limit=10)
+        audio_text = r.listen(source, phrase_time_limit=5)
         print("Time over, thanks")
         print("Current Time =", datetime.now().strftime("%H:%M:%S"))
         # recoginize_() method will throw a request error if the API is unreachable, hence using exception handling
