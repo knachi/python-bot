@@ -18,17 +18,20 @@ def speech_to_text():
 
         current_time = now.strftime("%H:%M:%S")
         print("Current Time =", current_time)
-        audio_text = r.listen(source, phrase_time_limit=5)
+        r.adjust_for_ambient_noise(source)
+        audio_text = r.listen(source)
         print("Time over, thanks")
         print("Current Time =", datetime.now().strftime("%H:%M:%S"))
         # recoginize_() method will throw a request error if the API is unreachable, hence using exception handling
 
         try:
             # using google speech recognition
-            interpreted_text = r.recognize_google(audio_text);
+            interpreted_text = r.recognize_google(audio_text, show_all= False)
             print("Text: " + interpreted_text)
             return interpreted_text
         except:
             print("Sorry, I did not get that")
 
         return ''
+
+speech_to_text()
