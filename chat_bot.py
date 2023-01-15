@@ -1,9 +1,8 @@
 from nltk.chat.util import Chat, reflections
 
-from supporting_functions.text_to_speech import text_to_speech
 from supporting_functions.speech_to_text import speech_to_text
+from supporting_functions.text_to_speech import text_to_speech
 
-input_text = speech_to_text()
 reflections = {
     "i am": "you are",
     "i was": "you were",
@@ -105,12 +104,17 @@ pairs = [
         r"quit",
         ["BBye take care. See you soon :) ", "It was nice talking to you. See you soon :)"]
     ],
+    [
+        "I am ready we can start",
+        ["That is great. Can you give little introduction about yourself)"]
+    ]
 ]
 
 
 def chat():
     chat_instance = Chat(pairs, reflections)
-    response = chat_instance.respond(input_text)
+    text = speech_to_text()
+    response = chat_instance.respond(text)
     print(response)
     text_to_speech(response)
 

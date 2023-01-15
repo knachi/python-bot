@@ -8,6 +8,7 @@ def speech_to_text():
     # Initialize recognizer class (for recognizing the speech)
 
     r = sr.Recognizer()
+    r.energy_threshold = 4000
 
     # Reading Microphone as source
     # listening the speech and store in audio_text variable
@@ -33,5 +34,3 @@ def speech_to_text():
             print("Sorry, I did not get that")
 
         return ''
-
-speech_to_text()
