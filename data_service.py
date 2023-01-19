@@ -67,10 +67,15 @@ class DataService:
             },
             {
                 "tag": "after_greeting",
-                "patterns": ["Yes", "yes sure", "Yes definitely", "Yes, we can get started"],
-                "responses": ["Would you like to introduce yourself?"]
-            }
-            
+                "patterns": ["Yes", "yes sure", "Yes definitely", "Yes, we can get started", "sure"],
+                "responses": ["Great.. Would you like to introduce yourself?"]
+            },
+            {
+                "tag": "after_introduction",
+                "patterns": ["Yes", "yes sure", "Yes definitely", "Yes, I would love that"],
+                "responses": ["What are 4 OOPS principal in java?"]
+            },
+
 
         ]}
 
