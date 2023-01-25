@@ -1,0 +1,46 @@
+tag,patterns,response
+greeting,Hi,"greeting|Hi, Nice to have you in call. Am I audible to you?"
+greeting,Hello,"greeting|Hi, Nice to have you in call. Am I audible to you?"
+greeting,Hey,"greeting|Hi, Nice to have you in call. Am I audible to you?"
+greeting,Hi there,"greeting|Hi, Nice to have you in call. Am I audible to you?"
+greeting,Hi are you there,"greeting|Hi, Nice to have you in call. Am I audible to you?"
+greeting,Am I audible ,"greeting|Hi, Nice to have you in call. Am I audible to you?"
+greeting,Good morning,"greeting|Hi, Nice to have you in call. Am I audible to you?"
+greeting,Good afternoon,"greeting|Hi, Nice to have you in call. Am I audible to you?"
+greeting,,"greeting|Hi, Nice to have you in call. Am I audible to you?"
+greeting_positive_response,"YesYes, you are audible",greeting_positive_response|Amazing.. Can we get started? Are you ready for your interview?
+greeting_positive_response,"YesYes, you are audible","greeting_positive_response|That's great, Are you ready for an interview?"
+greeting_positive_response,"YesYes, you are audible","greeting_positive_response|Good, we can get started then"
+greeting_positive_response,I checked settings you are audible now,greeting_positive_response|Amazing.. Can we get started? Are you ready for your interview?
+greeting_positive_response,I checked settings you are audible now,"greeting_positive_response|That's great, Are you ready for an interview?"
+greeting_positive_response,I checked settings you are audible now,"greeting_positive_response|Good, we can get started then"
+greeting_positive_response,Yes you are,greeting_positive_response|Amazing.. Can we get started? Are you ready for your interview?
+greeting_positive_response,Yes you are,"greeting_positive_response|That's great, Are you ready for an interview?"
+greeting_positive_response,Yes you are,"greeting_positive_response|Good, we can get started then"
+greeting_positive_response,Yes I can hear you,greeting_positive_response|Amazing.. Can we get started? Are you ready for your interview?
+greeting_positive_response,Yes I can hear you,"greeting_positive_response|That's great, Are you ready for an interview?"
+greeting_positive_response,Yes I can hear you,"greeting_positive_response|Good, we can get started then"
+greeting_negative_response,No,"greeting_negative_response|Oh that's sad, Can you please check your network connection "
+greeting_negative_response,Nope,"greeting_negative_response|Oh that's sad, Can you please check your network connection "
+greeting_negative_response,"No, you are not","greeting_negative_response|Oh that's sad, Can you please check your network connection "
+greeting_negative_response,"Nope, you are not","greeting_negative_response|Oh that's sad, Can you please check your network connection "
+greeting_negative_response,No you are not audible,"greeting_negative_response|Oh that's sad, Can you please check your network connection "
+greeting_negative_response,"Nope, you are not audible","greeting_negative_response|Oh that's sad, Can you please check your network connection "
+no_network_issue,"Yes, I did check my connection. Its fine ","no_network_issue|Oh, glad to hear that. Can you check settings once and let me know if you are audible?"
+no_network_issue,"Yes, I did check my connection. It is fine ","no_network_issue|Oh, glad to hear that. Can you check settings once and let me know if you are audible?"
+no_network_issue,I am not facing any network issue,"no_network_issue|Oh, glad to hear that. Can you check settings once and let me know if you are audible?"
+no_network_issue,I do not have any issue with network,"no_network_issue|Oh, glad to hear that. Can you check settings once and let me know if you are audible?"
+no_network_issue,I have strong connection,"no_network_issue|Oh, glad to hear that. Can you check settings once and let me know if you are audible?"
+introduction,My name is *,"introduction|That's great, Let's start with Java section."
+introduction,I work in ,"introduction|That's great, Let's start with Java section."
+introduction,I have experience of,"introduction|That's great, Let's start with Java section."
+introduction,I am ,"introduction|That's great, Let's start with Java section."
+after_greeting,Yes,after_greeting|Great.. Would you like to introduce yourself?
+after_greeting,yes sure,after_greeting|Great.. Would you like to introduce yourself?
+after_greeting,Yes definitely,after_greeting|Great.. Would you like to introduce yourself?
+after_greeting,"Yes, we can get started",after_greeting|Great.. Would you like to introduce yourself?
+after_greeting,sure,after_greeting|Great.. Would you like to introduce yourself?
+after_introduction,Yes,after_introduction|What are 4 OOPS principal in java?
+after_introduction,yes sure,after_introduction|What are 4 OOPS principal in java?
+after_introduction,Yes definitely,after_introduction|What are 4 OOPS principal in java?
+after_introduction,"Yes, I would love that",after_introduction|What are 4 OOPS principal in java?

@@ -16,21 +16,21 @@ class DataService:
 
     ourData = {
         "intents": [
-            {
-                "tag": "age",
-                "patterns": ["how old are you?"],
-                "responses": ["I am 2 years old and my birthday was yesterday"]
-            },
-            {
-                "tag": "goodbye",
-                "patterns": ["bye", "later"],
-                "responses": ["Bye", "take care"]
-            },
-            {
-                "tag": "name",
-                "patterns": ["what's your name?", "who are you?"],
-                "responses": ["I have no name yet," "You can give me one, and I will appreciate it"]
-            },
+            # {
+            #     "tag": "age",
+            #     "patterns": ["how old are you?"],
+            #     "responses": ["I am 2 years old and my birthday was yesterday"]
+            # },
+            # {
+            #     "tag": "goodbye",
+            #     "patterns": ["bye", "later"],
+            #     "responses": ["Bye", "take care"]
+            # },
+            # {
+            #     "tag": "name",
+            #     "patterns": ["what's your name?", "who are you?"],
+            #     "responses": ["I have no name yet," "You can give me one, and I will appreciate it"]
+            # },
             {
                 "tag": "greeting",
                 "patterns": ["Hi", "Hello", "Hey", "Hi there", "Hi are you there", "Am I audible ", "Good morning",
@@ -75,8 +75,6 @@ class DataService:
                 "patterns": ["Yes", "yes sure", "Yes definitely", "Yes, I would love that"],
                 "responses": ["What are 4 OOPS principal in java?"]
             },
-
-
         ]}
 
     def get_data(self):

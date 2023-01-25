@@ -16,6 +16,9 @@ Follow following steps for nlp installation
 6. nltk.download("wordnet")# word database
 7. pip  install numpy
 8. pip  install tensorflow
+9. pip install pandas 
+10. pip install scikit-learn
+
 
 
 References 
