@@ -120,8 +120,8 @@ def getRes(firstlist, fJson):
     for i in listOfIntents:
         if i["tag"] == tag:
             ourResult = random.choice(i["responses"])
-            break
-    return ourResult
+            return ourResult, tag
+
 
 
 def build_ml_model():

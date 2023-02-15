@@ -29,3 +29,5 @@ https://www.comm100.com/blog/journey-mapping-chatbot-decision-tree-from-scratch.
 
 
 https://www.section.io/engineering-education/creating-chatbot-using-natural-language-processing-in-python/
+
+https://jaketae.github.io/study/gpt2/
